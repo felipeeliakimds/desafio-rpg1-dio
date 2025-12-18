@@ -1,0 +1,32 @@
+//Desafio classificador de heroi
+
+/*
+O que deve ser utilizado
+
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estrutura de decisão
+
+Objetivo
+
+ Crie uma variável para armazenar o nome e a experiência (XP) de um herói, 
+ depois ultilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+
+ se XP for menor que 1000 = Ferro
+ se XP for entre 1001 e 2000 = Bronze
+ se XP for entre 2001 e 5000 = Prata
+ se XP for entre 5001 e 6000 = Ouro
+ se XP for entre 6001 e 7000 = Platina
+ se XP for entre 7001 e 8000 = Ascendente
+ se XP for entre 8001 e 10000 = Imortal
+ se XP for maior ou igual a 10001 = Radiante
+
+ Saída 
+
+ Ao final deve se exibir uma mensagem:
+ "O herói de nome {nome} está no nível de {nivel}"
+
+
+*/
+rl.question("Pressione ENTER para descobrir seu nível (ou digite 'sair'): ", (input) => {
