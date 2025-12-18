@@ -29,4 +29,3 @@ Objetivo
 
 
 */
-rl.question("Pressione ENTER para descobrir seu nível (ou digite 'sair'): ", (input) => {
